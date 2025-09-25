@@ -61,10 +61,8 @@ projeto-a3/
       └─ TelaRelatoriosSimples.java
 
 
-Prints sugeridos (opcional): coloque em docs/
-docs/print-login.png, docs/print-principal.png, docs/print-relatorios.png
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
  Banco de Dados (SQL)
 
 Schema: projetoA3
@@ -90,9 +88,9 @@ String url  = "jdbc:mysql://localhost:3306/projetoA3?useSSL=false&serverTimezone
 String user = "projeto";
 String pass = "9876A3";
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-▶️ Como rodar (Maven + Swing)
+ Como rodar (Maven + Swing)
 
 Pré-requisitos
 
@@ -114,15 +112,14 @@ Rode a classe br.com.a3.Inicio → abre a tela de Login.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
- Perfis e Permissões
+Perfis e Permissões
  
 Perfil	Ver Principal	Cadastros	Atribuições	Relatórios
-Administrador	✅	✅	✅	✅
-Gerente	✅	✅	✅	✅
-Colaborador	✅	❌	❌	✅
+Administrador -	ok  ok  ok  ok
+Gerente -	ok  ok  ok  ok
+Colaborador -	ok  x  x  ok
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  Relatórios internos
 
@@ -137,8 +134,6 @@ maria	123	Administrador
 joao	123	Colaborador
 ana	123	Colaborador
 
-Dica: cadastre/edite usuários em Cadastro → Usuário.
-
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
  Erros comuns
@@ -151,18 +146,4 @@ Lista não atualiza → clique Recarregar na tela (ou Atualizar na principal).
 
 Sem permissão → verifique o perfil do usuário logado.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Critérios de aceite usados
-
-Funcionalidades combinadas entregues (login/perfis, cadastros, atribuições, relatórios).
-
-Sem bugs críticos nos fluxos principais.
-
-Build compila e roda no IntelliJ (Inicio.java).
-
-Banco importável via sql/projetoA3.sql.
-
-Datas no padrão dia/mês/ano (entrada e exibição).
-
-Repositório organizado (sql/, maven/, console/).
