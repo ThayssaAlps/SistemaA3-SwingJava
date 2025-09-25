@@ -2,7 +2,7 @@ Projeto A3 -Sistema de Gestão de Equipe e Projeto
 
 Aplicativo desktop (Java + Swing + MySQL) para cadastrar usuários/equipes/projetos, atribuir quem participa de quê e visualizar relatórios rápidos.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 * Sumário
 
@@ -45,22 +45,39 @@ Datas no sistema: formato brasileiro dia/mês/ano (ex.: 23/09/2025)
 Estrutura do repositório
 
 projeto-a3/
+
 ├─ README.md
+
 ├─ .gitignore
+
 ├─ sql/
-│  └─ projetoA3.sql            
+
+│  └─ projetoA3.sql 
+
                    
-└─ maven/                       
+└─ maven/ 
+
    ├─ pom.xml
+
+   
    └─ src/main/java/br/com/a3/
+   
       ├─ Banco.java
+      
       ├─ Inicio.java
+      
       ├─ TelaLogin.java
+      
       ├─ TelaPrincipal.java
+      
       ├─ TelaCadastroUsuarios.java
+      
       ├─ TelaCadastroEquipes.java
+      
       ├─ TelaCadastroProjetos.java
+      
       ├─ TelaAtribuicoes.java
+      
       └─ TelaRelatoriosSimples.java
 
 
@@ -85,7 +102,11 @@ Importe estrutura + dados.
 Confirme se as tabelas foram criadas:
 usuarios, equipes, projetos, equipe_membros, equipe_projetos.
 
-Credenciais no código (ajuste se precisar) — maven/src/main/java/br/com/a3/Banco.java:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Credenciais no código 
+
+maven/src/main/java/br/com/a3/Banco.java:
 
 String url  = "jdbc:mysql://localhost:3306/projetoA3?useSSL=false&serverTimezone=UTC";
 String user = "projeto";
