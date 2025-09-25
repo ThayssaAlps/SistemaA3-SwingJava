@@ -40,7 +40,10 @@ IDE recomendada: IntelliJ IDEA
 
 Datas no sistema: formato brasileiro dia/mês/ano (ex.: 23/09/2025)
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Estrutura do repositório
+
 projeto-a3/
 ├─ README.md
 ├─ .gitignore
