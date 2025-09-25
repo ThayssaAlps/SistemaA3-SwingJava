@@ -1,4 +1,4 @@
-Projeto A3 — Sistema de Gestão de Equipe e Projeto
+Projeto A3 -Sistema de Gestão de Equipe e Projeto
 
 Aplicativo desktop (Java + Swing + MySQL) para cadastrar usuários/equipes/projetos, atribuir quem participa de quê e visualizar relatórios rápidos.
 
