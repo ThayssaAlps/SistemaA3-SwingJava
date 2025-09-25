@@ -40,15 +40,13 @@ IDE recomendada: IntelliJ IDEA
 
 Datas no sistema: formato brasileiro dia/mês/ano (ex.: 23/09/2025)
 
- 446b72d9-2299-499d-ab26-60d4d6650f17](https://github.com/user-attachments/assets/53fc0058-9cbc-4119-b13b-11596be796ba)
- 
 Estrutura do repositório
 projeto-a3/
 ├─ README.md
 ├─ .gitignore
 ├─ sql/
 │  └─ projetoA3.sql            
-                   [446b72d9-2299-499d-ab26-60d4d6650f17](https://github.com/user-attachments/assets/53fc0058-9cbc-4119-b13b-11596be796ba)
+                   
 └─ maven/                       
    ├─ pom.xml
    └─ src/main/java/br/com/a3/
